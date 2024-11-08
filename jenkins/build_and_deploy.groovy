@@ -13,7 +13,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Pull code from the repository
-                git 'https://github.com/your-repo.git'
+                git 'https://github.com/prateek3697/devops-assignment.git'
             }
         }
 
