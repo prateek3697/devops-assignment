@@ -35,7 +35,7 @@ This project demonstrates a full CI/CD pipeline setup, containerization, deploym
 * **Monitoring and Logging:** Monitoring and alerts can be set up using tools such as Prometheus and Grafana, or AWS CloudWatch, to track application health and respond to incidents in real time.
 
 # 5. Scripting and Automation
-* **CI/CD Automation:** A Groovy script (build_and_deploy.groovy) in Jenkins automates the CI/CD pipeline.
+* **CI/CD Automation:** A Groovy script **(build_and_deploy.groovy)** in Jenkins automates the CI/CD pipeline.
 * **Docker Build and Deployment Automation:** The pipeline script handles the Docker build, authentication, push to ECR, and deployment to Kubernetes with minimal manual intervention.
 * **Documentation:** The script is written in a modular and maintainable format for ease of updates.
 
