@@ -6,7 +6,7 @@
 
 Here are the step-by-step details to set up an end-to-end Jenkins pipeline for a Javascript web application ontainerizing it with Docker, and setting up a CI/CD pipeline using Jenkins. The application is served by NGINX and is designed to be deployed to AWS ECR and Kubernetes. Below is a breakdown of each component and its purpose.
 
-Project Structure : 
+**Project Structure :** 
 
 .
 ├── dist
@@ -24,11 +24,11 @@ Project Structure :
 │   └── Dockerfile
 
 
-Prerequisites:
+**Prerequisites:**
 
-   -  AWS: AWS ECR repository, credentials, and proper IAM permissions.
-   -  Kubernetes: A running Kubernetes cluster to deploy the application
-   -  Jenkins: Proper setup with Docker and Kubernetes plugins installed.
+   **-  AWS:** AWS ECR repository, credentials, and proper IAM permissions.
+   **-  Kubernetes:** A running Kubernetes cluster to deploy the application
+   **-  Jenkins:** Proper setup with Docker and Kubernetes plugins installed.
    
 
 **dist Folder**
