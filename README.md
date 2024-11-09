@@ -6,7 +6,7 @@
 
 Here are the step-by-step details to set up an end-to-end Jenkins pipeline for a Javascript web application ontainerizing it with Docker, and setting up a CI/CD pipeline using Jenkins. The application is served by NGINX and is designed to be deployed to AWS ECR and Kubernetes. Below is a breakdown of each component and its purpose.
 
-**Project Structure :** 
+# Project Structure : 
 
 .
 ├── dist
@@ -24,7 +24,7 @@ Here are the step-by-step details to set up an end-to-end Jenkins pipeline for a
 │   └── Dockerfile
 
 
-**Prerequisites:**
+# Prerequisites:
 
    **-  AWS:** AWS ECR repository, credentials, and proper IAM permissions.
    
@@ -33,7 +33,7 @@ Here are the step-by-step details to set up an end-to-end Jenkins pipeline for a
    **-  Jenkins:** Proper setup with Docker and Kubernetes plugins installed.
    
 
-**dist Folder**
+# dist Folder
 
 The dist folder contains the application files:
 
@@ -41,16 +41,16 @@ The dist folder contains the application files:
 - index.html - The main HTML file that loads the JavaScript and displays the content.
 - styles.css - A CSS file that styles the HTML page.
 
-**jenkins Folder**
+# jenkins Folder
 
 The jenkins folder contains:
 
-- build_and_deploy.groovy - A Jenkins pipeline script that automates the CI/CD pipeline steps, from building the Docker image to deploying it to Kubernetes.
+**- build_and_deploy.groovy** - A Jenkins pipeline script that automates the CI/CD pipeline steps, from building the Docker image to deploying it to Kubernetes.
 
-- Dockerfile - Defines the Docker image that will host the application using NGINX.
+**- Dockerfile** - Defines the Docker image that will host the application using NGINX.
 
 
-**Detailed Explanation**
+# Detailed Explanation
 
 
 **1. Application Files in dist Folder**
