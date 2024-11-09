@@ -91,7 +91,7 @@ The Jenkins pipeline automates the following steps:
 **Environment Variables:** Sets AWS region, ECR repository name, and Docker image tag.
 
 
-**Stages:**
+# Stages:
 
 **Checkout:** Clones the code repository.
 
@@ -105,7 +105,7 @@ The Jenkins pipeline automates the following steps:
 
 
 
-**Post Steps:**
+# Post Steps:
 
 **Always:** Cleans up Docker images and workspace after each build.
 
@@ -114,7 +114,7 @@ The Jenkins pipeline automates the following steps:
 **Failure:** Outputs a failure message.
 
 
-**How to Run**
+# How to Run
 
 
 **Set Up Jenkins:**
