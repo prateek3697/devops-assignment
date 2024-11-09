@@ -27,7 +27,9 @@ Here are the step-by-step details to set up an end-to-end Jenkins pipeline for a
 **Prerequisites:**
 
    **-  AWS:** AWS ECR repository, credentials, and proper IAM permissions.
+   
    **-  Kubernetes:** A running Kubernetes cluster to deploy the application
+   
    **-  Jenkins:** Proper setup with Docker and Kubernetes plugins installed.
    
 
