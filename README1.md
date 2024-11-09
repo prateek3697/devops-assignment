@@ -1,5 +1,5 @@
-# Project Overview
-This project demonstrates a full CI/CD pipeline setup, containerization, deployment on a cloud platform, and automation to ensure high availability, scalability, and maintainability. The assignment meets core DevOps requirements and uses Docker for containerization, Jenkins for CI/CD, and Kubernetes for cloud deployment.
+# Assignment Overview
+This assignment demonstrates a full CI/CD pipeline setup, containerization, deployment on a cloud platform, and automation to ensure high availability, scalability, and maintainability. The assignment meets core DevOps requirements and uses Docker for containerization, Jenkins for CI/CD, and Kubernetes for cloud deployment.
 
 # Core Requirements
 
