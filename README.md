@@ -11,17 +11,17 @@ Here are the step-by-step details to set up an end-to-end Jenkins pipeline for a
 .
 ├── dist
 
-│   ├── app.js
+  ├── app.js
 
-│   ├── index.html
+  ├── index.html
 
-│   └── styles.css
+  ├── styles.css
 
 ├── jenkins
 
-│   ├── build_and_deploy.groovy
+  ├── build_and_deploy.groovy
 
-│   └── Dockerfile
+  ├── Dockerfile
 
 
 # Prerequisites:
